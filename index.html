@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora de Horas Extras</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <h1>Calculadora de Horas Extras</h1>
+    <form id="horaExtraForm">
+        <label for="destino">Destino:</label>
+        <input type="text" id="destino" name="destino" required><br><br>
+
+        <label for="data">Data:</label>
+        <input type="date" id="data" name="data" required><br><br>
+
+        <label for="horaInicio">Hora de Início:</label>
+        <input type="time" id="horaInicio" name="horaInicio" required><br><br>
+
+        <label for="horaFim">Hora de Fim:</label>
+        <input type="time" id="horaFim" name="horaFim" required><br><br>
+
+        <label for="placa">Placa do Veículo:</label>
+        <input type="text" id="placa" name="placa" required><br><br>
+
+        <input type="submit" value="Calcular">
+    </form>
+
+    <h2>Resultado:</h2>
+    <pre id="resultado"></pre>
+
+    <button id="calcularMensal">Calcular Total Mensal</button>
+    <h2>Total Mensal:</h2>
+    <pre id="resultadoMensal"></pre>
+
+    <script src="script.js"></script>
+</body>
+</html>

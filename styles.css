@@ -1,0 +1,120 @@
+/* Define o estilo para o corpo da página */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #90b0d0;
+    margin: 0;
+    padding: 0;
+}
+
+/* Estiliza o título da página */
+h1 {
+    text-align: center;
+    color: #343a40;
+    margin: 20px 0;
+    font-size: 2em;
+    font-weight: 600;
+}
+
+h2{
+    text-align: center;
+}
+
+/* Estiliza o formulário */
+form {
+    max-width: 500px;
+    margin: 20px auto;
+    padding: 15px;
+    background-color: #ffffff;
+    border-radius: 8px;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+    border: 1px solid #ced4da;
+}
+
+/* Estiliza os rótulos do formulário */
+label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: 500;
+    color: #495057;
+    font-size: 1em;
+}
+
+/* Estiliza os campos de entrada do formulário */
+input[type="text"],
+input[type="date"],
+input[type="time"] {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 10px;
+    border: 1px solid #adb5bd;
+    border-radius: 4px;
+    box-sizing: border-box;
+    font-size: 0.9em;
+}
+
+/* Estiliza o botão de envio */
+input[type="submit"] {
+    background-color: #007bff;
+    color: #ffffff;
+    border: none;
+    padding: 10px 15px;
+    font-size: 0.9em;
+    cursor: pointer;
+    border-radius: 4px;
+    transition: background-color 0.3s, transform 0.2s;
+}
+
+input[type="submit"]:hover {
+    background-color: #0056b3;
+    transform: scale(1.02);
+}
+
+/* Estiliza a área de resultados */
+#resultado {
+    max-width: 500px;
+    margin: 20px auto;
+    padding: 15px;
+    background-color: #ffffff;
+    border-radius: 8px;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+    border: 1px solid #ced4da;
+    white-space: pre-wrap; /* Mantém a formatação do texto */
+    font-size: 1em;
+    color: #343a40;
+    font-weight: 500;
+}
+
+/* Estiliza o botão de cálculo mensal */
+#calcularMensal {
+    background-color: #28a745;
+    color: #ffffff;
+    border: none;
+    padding: 10px 15px;
+    font-size: 0.9em;
+    cursor: pointer;
+    border-radius: 4px;
+    margin: 10px auto;
+    display: block;
+    transition: background-color 0.3s, transform 0.2s;
+}
+
+#calcularMensal:hover {
+    background-color: #218838;
+    transform: scale(1.02);
+}
+
+/* Estiliza a área de resultados mensais */
+#resultadoMensal {
+    max-width: 500px;
+    margin: 20px auto;
+    padding: 15px;
+    background-color: #ffffff;
+    border-radius: 8px;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+    border: 1px solid #ced4da;
+    white-space: pre-wrap; /* Mantém a formatação do texto */
+    font-size: 1em;
+    color: #343a40;
+    font-weight: 500;
+}
+
